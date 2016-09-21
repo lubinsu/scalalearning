@@ -1,0 +1,19 @@
+<scalastyle commentFilter="enabled">
+    <name>Scalastyle standard configuration</name>
+    <check level="warning" class="org.scalastyle.file.FileTabChecker" enabled="true"/>
+    <check level="warning" class="org.scalastyle.file.FileLengthChecker" enabled="true">
+        <parameters>
+            <parameter name="maxFileLength">800</parameter>
+        </parameters>
+    </check>
+    <check level="warning" class="org.scalastyle.scalariform.MagicNumberChecker" enabled="true">
+        <customMessage>Please don't use magic numbers</customMessage>
+    </check>
+
+    <check enabled="true" class="org.scalastyle.file.FileLineLengthChecker" level="warning"/>
+    <check enabled="true" class="org.scalastyle.file.HeaderMatchesChecker" level="warning">
+        <parameters>
+            <parameter name="header">// Copyright (C) 2015-2016 the original author or authors.</parameter>
+        </parameters>
+    </check>
+</scalastyle>

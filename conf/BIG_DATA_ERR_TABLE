@@ -1,0 +1,6 @@
+BIG_DATA_ERR_00001=mediator failure
+BIG_DATA_ERR_00002=login validate error
+BIG_DATA_ERR_00003=register validate error
+BIG_DATA_ERR_00004=orderSubmit validate error
+BIG_DATA_ERR_00005=payReturn validate error
+BIG_DATA_ERR_99999=unknown error
